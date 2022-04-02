@@ -408,11 +408,14 @@ const Home = () => {
           </motion.div>
         </div>
         <div className='home-section what-i-do'>
-          <div className='headline'>what i do</div>
+          <div className='headline'>what i really do</div>
           <div className='separator'></div>
           <div className='title text-h2-5'>
-          I am a multidisciplinary <span className='saol'>dev</span> based in Nairobi, focusing on web design and web3. Currently at {" "}
-            <span className='saol'>SafeConnectX</span> as UI/UX Designer and solidity dev
+          I am <span className='saol'>Sahib Bharaj</span>, a multidisciplinary <span className='saol'>dev</span> based in Nairobi, focusing on web design and web3. Currently working at {" "}
+            <span className='saol'>SafeConnectX</span> as UI/UX Designer and solidity dev <br /><br />
+            I have been a Blockchain Dev for over 2 years, proficient in  <span className='saol'>Solidity</span>  and have lots of experience in the field.
+
+I have worked as a <span className='saol'>Blockchain  Full-Stack Dev</span> in a couple of Blockchain and Crypto startups and projects that are related to <span className='saol'> NFTs</span>, Decentralized Finance <span className='saol'>(DeFi)</span>  and  <span className='saol'>dApps</span>
           </div>
         
         </div>
