@@ -401,7 +401,9 @@ const Home = () => {
                 <Slider />
               </div>
             </div>
+          
           </div>
+
           <motion.div initial={{ opacity: 1 }} style={{ opacity: discoverOpacity }} className='discover'>
             <span className='discover'>discover</span>
             <ArrowDownSVG />
@@ -417,7 +419,9 @@ const Home = () => {
 
 I have worked as a <span className='saol'>Blockchain  Full-Stack Dev</span> in a couple of Blockchain and Crypto startups and projects that are related to <span className='saol'> NFTs</span>, Decentralized Finance <span className='saol'>(DeFi)</span>  and  <span className='saol'>dApps</span>
           </div>
-        
+          <a className='button' href="https://telegram.me/web3_dev"  target='_blank' >
+            HMU on Telegram
+          </a>
         </div>
         <div className='home-section skills'>
           <div className='headline'>skills</div>
