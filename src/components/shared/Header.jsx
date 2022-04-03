@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { Link } from "react-router-dom"
 import useStore from "../../store"
-import CathyLogoSVG from "../../assets/icons/cathy.svg?component"
+import CathyLogoSVG from "../../assets/icons/sirheeeb.svg?component"
 import { horizontalPadding } from "../../styles/globalCustom"
 
 const StyledHeader = styled.div`
@@ -18,8 +18,8 @@ const StyledHeader = styled.div`
 
   pointer-events: none;
   .logo {
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     pointer-events: auto;
     margin-left: -6px;
     svg {
