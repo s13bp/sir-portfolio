@@ -18,8 +18,8 @@ const StyledHeader = styled.div`
 
   pointer-events: none;
   .logo {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     pointer-events: auto;
     margin-left: -6px;
     svg {
