@@ -13,7 +13,7 @@ const StyledHeader = styled.div`
   flex-flow: row nowrap;
   align-items: center;
   justify-content: space-between;
-  top: 60px;
+  top: 20px;
   z-index: 100;
 
   pointer-events: none;
