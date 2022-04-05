@@ -27,6 +27,12 @@ const darkColors = [
     name: "desert",
     color: "#A55420",
   },
+    {
+    name: "limegreen",
+    color: "#45f200",
+  },
+
+  
 ]
 
 const lightColors = [
@@ -55,9 +61,14 @@ const lightColors = [
     color: "#EFA8EF",
   },
   {
+    name: "bluish",
+    color: "#0003b0",
+  },
+  {
     name: "desert",
     color: "#A55420",
   },
+
 ]
 
 export { lightColors, darkColors }

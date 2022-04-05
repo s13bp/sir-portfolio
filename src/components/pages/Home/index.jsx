@@ -87,12 +87,12 @@ const StyledHome = styled.div`
             right: 160px;
             &::after {
               position: absolute;
-              content: "solidity dev & front end developer based in Nairobi.";
+              content: "blockchain dev & front-end developer based in Nairobi.";
               width: 250px;
               top: -60px;
               left: -20px;
               font-family: NeueMontrealRegular;
-              font-size: 12px;
+              font-size: 14px;
               text-transform: uppercase;
               white-space: initial;
               color: ${({ theme }) => theme.colors.text.standard};
@@ -288,7 +288,7 @@ const StyledHome = styled.div`
         }
         h3.number {
           margin-top: 20px;
-          font-size: 60px;
+          font-size: 40px;
           font-family: "Ginger";
           /* font-family: "NeueMontrealLight"; */
           color: ${({ theme }) => theme.colors.text.disabled};

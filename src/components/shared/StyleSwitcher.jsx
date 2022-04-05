@@ -42,7 +42,7 @@ const StyledStyleSwitcher = styled.div`
       width: 12px;
       height: 12px;
       border-radius: 100%;
-      background-color: ${({ theme }) => theme.colors.text.disabled};
+      background-color: ${({ theme }) => theme.colors.primary1};
       transition: background-color 0.5s;
     }
     &:hover{

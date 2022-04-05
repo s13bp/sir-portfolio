@@ -59,6 +59,7 @@ const StyledWorks = styled(motion.div)`
         text-transform: uppercase;
         white-space: nowrap;
         color: white;
+        color: ${({ theme }) => theme.colors.primary1};
       }
 
       .cta {
@@ -71,6 +72,7 @@ const StyledWorks = styled(motion.div)`
           font-family: NeueMontrealRegular;
           text-transform: uppercase;
           white-space: nowrap;
+         
         }
 
         .circle {
@@ -117,7 +119,7 @@ const StyledWorks = styled(motion.div)`
     transform: translateX(-50%);
     bottom: 60px;
     font-family: "NeueMontrealRegular";
-    color: ${({ theme }) => theme.colors.text.standard};
+    color: ${({ theme }) => theme.colors.primary1};
     z-index: 1000;
     text-transform: uppercase;
   }
@@ -128,11 +130,11 @@ const StyledWorks = styled(motion.div)`
     transform: translateX(-50%);
     bottom: 40px;
     width: 35vw;
-    height: 2px;
+    height: 4px;
     background: grey;
 
     .scroll-bar {
-      background: ${({ theme }) => theme.colors.text.standard};
+      background: ${({ theme }) => theme.colors.primary1};
       height: 100%;
       width: 0;
     }
