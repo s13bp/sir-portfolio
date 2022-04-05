@@ -7,15 +7,15 @@ import grissiniVisual1 from "./assets/img/works/grissini/veesual.jpg"
 
 import PXP from "./components/projects/PXP"
 import pxpCover from "./assets/img/works/pxp.png"
-import pxpVisual1 from "./assets/img/works/pxp/visual1.jpg"
+import pxpVisual1 from "./assets/img/works/pxp/wawa.png"
 
 import Arcane from "./components/projects/Arcane"
 import arcaneCover from "./assets/img/works/blinu.png"
-import arcaneVisual1 from "./assets/img/works/arcane/visual1.jpg"
+import arcaneVisual1 from "./assets/img/works/arcane/blinu.png"
 
 import Hologramme from "./components/projects/Hologramme"
 import hologrammeCover from "./assets/img/works/metasino.png"
-import hologrammeVisual1 from "./assets/img/works/hologramme/visual1.jpg"
+import hologrammeVisual1 from "./assets/img/works/hologramme/Screenshot 2022-04-05 030408.png"
 
 import Elijah from "./components/projects/Elijah"
 import elijahCover from "./assets/img/works/elijah.jpg"
@@ -38,8 +38,8 @@ import sangenCover from "./assets/img/works/sangen.jpeg"
 import sangenVisual1 from "./assets/img/works/sangen/sangenVisual1.jpg"
 
 import Desktop from "./components/projects/Desktop"
-import desktopCover from "./assets/img/works/desktop.jpg"
-import desktopVisual1 from "./assets/img/works/desktop/desktopVisual1.jpg"
+import desktopCover from "./assets/img/works/sasa.png"
+import desktopVisual1 from "./assets/img/works/desktop/Screenshot 2022-04-05 025642.png"
 
 import Feels from "./components/projects/Feels"
 import feelsCover from "./assets/img/works/feels.jpg"
@@ -61,6 +61,7 @@ let projectsData = [
     path: "project-x-paris",
     title: "Complete design of the SafeConnectX website",
     coverImg: pxpCover,
+    visual1: pxpVisual1,
     component: PXP,
     date: "Dec. 2021",
     role: "Designer, Web3 integrator",
@@ -70,9 +71,9 @@ let projectsData = [
     websiteLink: "https://safe-connect-x.vercel.app/",
   },
   {
-    name: "on-chain game",
+    name: "blockchain game",
     path: "grissini",
-    title: "Design and developtment of the 3D on-chain MMORPG",
+    title: "Design and developtment of the 3D blokchain MMORPG",
     coverImg: grissiniCover,
     visual1: grissiniVisual1,
     component: Grissini,
@@ -80,7 +81,7 @@ let projectsData = [
     role: "Designer, Developer",
     techs: [" Unity, Moralis"],
     description:
-      "Wendani Chronicles is an on-blockchain game, made with Unity and Moralis SDK for handling all web3 related stuff. Still in development, yet to be out on mobile app stores. The first blockchain P2E 3D game by a Kenyan lol.",
+      "Wendani Chronicles is a blockchain game, made with Unity, and MoralisSDK for handling all web3 related stuff. Still in development, yet to be out on mobile app stores.  The first blockchain P2E 3D game by a Kenyan lol.",
     
   },
   {
@@ -101,7 +102,7 @@ let projectsData = [
   {
     name: "Meta Casino",
     path: "hologramme",
-    title: "",
+    title: "a three.js project",
     visual1: hologrammeVisual1,
     coverImg: hologrammeCover,
     component: Hologramme,
@@ -110,6 +111,20 @@ let projectsData = [
     techs: [" Three.js, Blender"],
     description:
       "A three.js project thats integrated to the blockchain. Basically a virtual casino that lets users gamble from the confines of their own homes.",
+  },
+  
+  {
+    name: "NFT MARKET",
+    path: "desktop",
+    title: "NFT Marketplace",
+    coverImg: desktopCover,
+    visual1: desktopVisual1,
+    component: Desktop,
+    date: "Apr. 2022",
+    role: "Designer Solidity dev",
+    techs: [" Three.js, Blender, Solidity"],
+    description:
+      "A cross-chain NFT Marketplace where users can display their previously owned NFTs, as long as they are on the EVM. Users can also set prices for their NFTs and list them for sale. Still in development though. To be used as part of the 3D Wendani Chronicles ecosystem in that gamers can purchase in-game items as NFTs from here. ",
   },
 
 
